@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		259D254A20F94F3B00D81B48 /* InfoDaHora.plist in Resources */ = {isa = PBXBuildFile; fileRef = 259D254920F94F3B00D81B48 /* InfoDaHora.plist */; };
+		259D254C20F94F7600D81B48 /* ViewControllerDaHora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259D254B20F94F7600D81B48 /* ViewControllerDaHora.swift */; };
+		259D254E20F9537500D81B48 /* DaHora.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259D254D20F9537500D81B48 /* DaHora.storyboard */; };
+		259D255220F9593E00D81B48 /* ImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 259D255120F9593E00D81B48 /* ImageClassifier.mlmodel */; };
+		E2A53F5120F2D99F00F82D67 /* Inicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A53F5020F2D99F00F82D67 /* Inicio.swift */; };
 		E2D2146420F2BCFC003D0BEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D2146320F2BCFC003D0BEA /* AppDelegate.swift */; };
 		E2D2146620F2BCFC003D0BEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D2146520F2BCFC003D0BEA /* ViewController.swift */; };
 		E2D2146920F2BCFC003D0BEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D2146720F2BCFC003D0BEA /* Main.storyboard */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		259D254920F94F3B00D81B48 /* InfoDaHora.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InfoDaHora.plist; sourceTree = "<group>"; };
+		259D254B20F94F7600D81B48 /* ViewControllerDaHora.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerDaHora.swift; sourceTree = "<group>"; };
+		259D254D20F9537500D81B48 /* DaHora.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DaHora.storyboard; sourceTree = "<group>"; };
+		259D255120F9593E00D81B48 /* ImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ImageClassifier.mlmodel; sourceTree = "<group>"; };
+		E2A53F5020F2D99F00F82D67 /* Inicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inicio.swift; sourceTree = "<group>"; };
 		E2D2146020F2BCFC003D0BEA /* Yummy Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yummy Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D2146320F2BCFC003D0BEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2D2146520F2BCFC003D0BEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,9 +67,14 @@
 				E2D2146320F2BCFC003D0BEA /* AppDelegate.swift */,
 				E2D2146520F2BCFC003D0BEA /* ViewController.swift */,
 				E2D2146720F2BCFC003D0BEA /* Main.storyboard */,
+				259D254D20F9537500D81B48 /* DaHora.storyboard */,
+				259D255120F9593E00D81B48 /* ImageClassifier.mlmodel */,
+				259D254B20F94F7600D81B48 /* ViewControllerDaHora.swift */,
 				E2D2146A20F2BCFD003D0BEA /* Assets.xcassets */,
 				E2D2146C20F2BCFD003D0BEA /* LaunchScreen.storyboard */,
 				E2D2146F20F2BCFD003D0BEA /* Info.plist */,
+				259D254920F94F3B00D81B48 /* InfoDaHora.plist */,
+				E2A53F5020F2D99F00F82D67 /* Inicio.swift */,
 			);
 			path = "Yummy Time";
 			sourceTree = "<group>";
@@ -123,6 +138,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2D2146E20F2BCFD003D0BEA /* LaunchScreen.storyboard in Resources */,
+				259D254A20F94F3B00D81B48 /* InfoDaHora.plist in Resources */,
+				259D254E20F9537500D81B48 /* DaHora.storyboard in Resources */,
 				E2D2146B20F2BCFD003D0BEA /* Assets.xcassets in Resources */,
 				E2D2146920F2BCFC003D0BEA /* Main.storyboard in Resources */,
 			);
@@ -137,6 +154,9 @@
 			files = (
 				E2D2146620F2BCFC003D0BEA /* ViewController.swift in Sources */,
 				E2D2146420F2BCFC003D0BEA /* AppDelegate.swift in Sources */,
+				E2A53F5120F2D99F00F82D67 /* Inicio.swift in Sources */,
+				259D254C20F94F7600D81B48 /* ViewControllerDaHora.swift in Sources */,
+				259D255220F9593E00D81B48 /* ImageClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,8 +301,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5FPDGHW8G8;
+				DEVELOPMENT_TEAM = CW4UG93T35;
 				INFOPLIST_FILE = "Yummy Time/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,8 +320,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5FPDGHW8G8;
+				DEVELOPMENT_TEAM = CW4UG93T35;
 				INFOPLIST_FILE = "Yummy Time/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
